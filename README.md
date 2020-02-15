@@ -19,3 +19,6 @@ Web to Email Form Plugin for MP's Website to Help Case Workers by Tagging Emails
 
 
 ## What is a Website Plugin
+Self contained code to add extra functionality to a website such as a WordPress' plugin architecture allows users to extend the features and functionality of a website or blog.
+
+If you are hammer all problems look like a nail so if you use AWS serverless microservices then a web plugins look like a web form posting to an API backed by a queue and lambda.
