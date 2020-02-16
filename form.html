@@ -20,12 +20,16 @@
        var fname = $("#fname").val();
        var lname = $("#lname").val();
        var query = $("#query-type").val();
-      var desc = $("#message").val();
+       var desc = $("#message").val();
+       var mail = $("#email").val();
+       var postcode = $("#postcode").val();
        var data = {
           first_name : fname,
           last_name : lname,
           query : query
           desc : desc
+          mail : mail
+          postcode : postcode
         };
 
        $.ajax({
@@ -57,11 +61,15 @@
   <input type="text" id="fname" name="fname"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
+  <label for="email">Email Address</label><br>
+  <input type="email" id="email">
   <label>What kind of question do you have?</label>
   <select id="query-type" name="question-type">
   <option value="">policy</option>
   <option value="">personal</option>
 </select>
+  <label>Your postcode</label>
+  <input type="text" id="postcode" name="postcode"><br>
 <textarea id="message">
 </textarea>
  <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
