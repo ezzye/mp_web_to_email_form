@@ -1,79 +1,25 @@
 <!DOCTYPE html>
-<head>
-  <script>
-    function submitToAPI(e) {
-       e.preventDefault();
-       var URL = "https://abc1234.execute-api.us-east-1.amazonaws.com/01/contact";
-
-            var fname = /[A-Za-z]{1}[A-Za-z]/;
-            if (!fname.test($("#fname").val())) {
-                         alert ("Name can not less than 2 char");
-                return;
-            }
-            var lname = /[A-Za-z]{1}[A-Za-z]/;
-            if (!lname.test($("#lname").val())) {
-                         alert ("Name can not less than 2 char");
-                return;
-            }
-
-
-       var fname = $("#fname").val();
-       var lname = $("#lname").val();
-       var query = $("#query-type").val();
-       var desc = $("#message").val();
-       var mail = $("#email").val();
-       var postcode = $("#postcode").val();
-       var data = {
-          first_name : fname,
-          last_name : lname,
-          query : query
-          desc : desc
-          mail : mail
-          postcode : postcode
-        };
-
-       $.ajax({
-         type: "POST",
-         url : "https://abc1234.execute-api.us-east-1.amazonaws.com/01/contact",
-         dataType: "json",
-         crossDomain: "true",
-         contentType: "application/json; charset=utf-8",
-         data: JSON.stringify(data),
-
-         
-         success: function () {
-           // clear form and show a success message
-           alert("Successfull");
-           document.getElementById("contact-form").reset();
-       location.reload();
-         },
-         error: function () {
-           // show an error message
-           alert("UnSuccessfull");
-         }});
-     }
-  </script>
-</head>
 <html>
 <body>
-<form id="contact-form" method="post">
+<form id="contact-form" method="post" action="exampleurl">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <input type="text" id="fname" name="fname" required><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <input type="text" id="lname" name="lname" required>
   <label for="email">Email Address</label><br>
-  <input type="email" id="email">
+  <input type="email" id="email" required placeholder="Enter a valid email address">
   <label>What kind of question do you have?</label>
   <select id="query-type" name="question-type">
   <option value="">policy</option>
   <option value="">personal</option>
 </select>
+  <label>Do you have a caseworker number?<label>
+    <input type="text" id="reference" name="reference" required><br>
   <label>Your postcode</label>
-  <input type="text" id="postcode" name="postcode"><br>
+  <input type="text" id="postcode" name="postcode" required><br>
 <textarea id="message">
 </textarea>
- <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
-<button type="button" onclick="submitToAPI(event)">submit</button>
+<button type="button" onclick="">submit</button>
 </form>
 </body>
 </html>
