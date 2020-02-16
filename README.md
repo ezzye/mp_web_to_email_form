@@ -99,7 +99,7 @@ emailing Lambda (Lacey)
 
 ## First draft of message format
 ```
-post-code: constituents post code
+post_code: constituents post code
 body: the message
 first_name: first name of constituent
 last_name: last of constituent
