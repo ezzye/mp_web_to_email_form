@@ -74,7 +74,7 @@ Trigger AWS lambda with API fronend
 |
 |
 v
-Subscribe to processing email topic
+Publish to processing email topic
 |
 |
 v
@@ -86,7 +86,19 @@ Email processing Lambda (Cagney)
 |
 |
 v
-Subcribed to emailing topic
+Publish to postcode topic
+|
+|
+v
+Linked to postcode processing queue
+|
+|
+v
+Postcode processing Lambda (Hutch)
+|
+|
+v
+Publish to emailing topic
 |
 |
 v
