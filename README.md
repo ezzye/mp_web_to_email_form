@@ -116,6 +116,8 @@ body: the message
 first_name: first name of constituent
 last_name: last of constituent
 email_address: constituent's email address
+email_subject: email subject
+mp_ref: case ref number
 subject: subject picked from list of options
 type: policy | personal | other
 ```
