@@ -56,4 +56,38 @@ If you are hammer all problems look like a nail so if you use AWS serverless mic
  * https://intellipaat.com/community/13263/sending-email-via-aws-ses-within-aws-lambda-function
  * https://blogit.create.pt/guilhermeperuzzi/2019/10/21/send-email-in-aws-using-sqs-sns-and-lambda-function/
 
+## Microservice Architecture
 
+website https://website.com
+|
+|
+v
+Webform with POST data to AWS Lambda frontend
+|
+|
+v
+Trigger AWS lambda with API fronend
+|
+|
+v
+Subscribe to processing email topic
+|
+|
+v
+Linked to email processing queue
+|
+|
+v
+Email processing Lambda (Cagney)
+|
+|
+v
+Subcribed to emailing topic
+|
+|
+v
+Linked to email sending queue (Lacey)
+|
+|
+v
+emailing Lambda 
