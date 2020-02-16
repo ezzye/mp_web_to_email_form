@@ -90,9 +90,9 @@ Subcribed to emailing topic
 |
 |
 v
-Linked to email sending queue (Lacey)
+Linked to email sending queue 
 |
 |
 v
-emailing Lambda 
+emailing Lambda (Lacey)
 ```
