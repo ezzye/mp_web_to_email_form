@@ -43,3 +43,17 @@ If you are hammer all problems look like a nail so if you use AWS serverless mic
  * https://codeburst.io/how-to-write-a-wordpress-plugin-in-5-minutes-5f8de34f3cd3
  * https://www.wpbeginner.com/wp-tutorials/how-to-create-a-wordpress-plugin/
 
+## AWS Lambda Email
+ * https://aws.amazon.com/premiumsupport/knowledge-center/lambda-send-email-ses/
+ * https://docs.aws.amazon.com/ses/latest/DeveloperGuide/receiving-email-action-lambda.html
+ * https://www.scrivito.com/using-an-aws-lambda-function-to-send-an-email-after-form-submission-f0e6697e59a381ba
+ * https://dev.to/centrics/send-e-mails-through-aws-ses-and-lambda-17f2
+ * https://www.smashingmagazine.com/2018/11/sending-emails-asynchronously-through-aws-ses/
+ * https://medium.com/@xoor/sending-emails-with-attachments-with-aws-lambda-and-node-js-e6a78500227c
+ * https://zapier.com/learn/email-marketing/best-transactional-email-sending-services/
+ * https://read.iopipe.com/how-to-use-aws-lambda-to-send-high-volume-emails-at-scale-10efe65b2f32
+ * https://read.iopipe.com/6-lessons-learned-sending-mass-emails-with-aws-lambda-3c5e56e19571
+ * https://intellipaat.com/community/13263/sending-email-via-aws-ses-within-aws-lambda-function
+ * https://blogit.create.pt/guilhermeperuzzi/2019/10/21/send-email-in-aws-using-sqs-sns-and-lambda-function/
+
+
