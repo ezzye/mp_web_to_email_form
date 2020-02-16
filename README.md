@@ -58,6 +58,7 @@ If you are hammer all problems look like a nail so if you use AWS serverless mic
 
 ## Microservice Architecture
 
+```
 website https://website.com
 |
 |
@@ -91,3 +92,4 @@ Linked to email sending queue (Lacey)
 |
 v
 emailing Lambda 
+```
