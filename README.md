@@ -96,3 +96,14 @@ Linked to email sending queue
 v
 emailing Lambda (Lacey)
 ```
+
+## First draft of message format
+```
+post-code: constituents post code
+body: the message
+first_name: first name of constituent
+last_name: last of constituent
+email_address: constituent's email address
+subject: subject picked from list of options
+type: policy | personal | other
+```
