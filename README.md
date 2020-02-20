@@ -74,6 +74,18 @@ Trigger AWS lambda with API fronend
 |
 |
 v
+Publish to postcode topic
+|
+|
+v
+Linked to postcode processing queue
+|
+|
+v
+Postcode processing and out of constituaency filter Lambda (Hutch)
+|
+|
+v
 Publish to processing email topic
 |
 |
@@ -86,15 +98,15 @@ Email processing Lambda (Cagney)
 |
 |
 v
-Publish to postcode topic
+Publish to Natural Language Processin NLP topic
 |
 |
 v
-Linked to postcode processing queue
+Linked to Natural Language Processin NLP queue 
 |
 |
 v
-Postcode processing Lambda (Hutch)
+Natural Language Processin NLP Lambda (Starsky)
 |
 |
 v
