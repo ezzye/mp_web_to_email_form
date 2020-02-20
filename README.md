@@ -121,3 +121,9 @@ mp_ref: case ref number
 subject: subject picked from list of options
 type: policy | personal | other
 ```
+## Next Step
+Add AI/Algorithmic analysis of emails to find meaning that allows emails to be tagged
+See:
+ * https://www.researchgate.net/publication/227988510_Automatic_Keyword_Extraction_from_Individual_Documents
+15:00
+ * http://www.tiernok.com/posts/automated-keyword-extraction-tf-idf-rake-and-textrank.html
