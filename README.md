@@ -1,5 +1,5 @@
 # mp_web_to_email_form
-Web to Email Form Plugin for MP's Website to Help Case Workers by Tagging and Filtering Emails using Natural LAnguage Processing NLP
+Web/Messaging/SMS to Email Form Plugin for MP's Website to Help Case Workers by Tagging and Filtering Emails using Natural Language Processing NLP
 
 ## Useful Websites
  * https://docs.google.com/document/d/1HNZC0GznBqoiRD7PQYQFwr-6EZbI2_hkgfv8nK80zlE/edit#heading=h.63gk82yb67mq
